@@ -1,0 +1,16 @@
+/* ... (previous CSS styles) */
+
+/* Add animations to project items */
+.project {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
